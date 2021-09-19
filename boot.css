@@ -16,3 +16,23 @@
 .card-img-top{
     height: 30%;
 }
+#why{
+    background-color:rgb(204, 199, 199);
+}
+#head1{
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+    left: 50px;
+    position: absolute;
+    top: 5px;
+    font-weight: bold;
+}
+#head2{
+    font-family: sans-serif;
+    font-size: 10px;
+    /* float: right;  */
+    text-transform: uppercase;
+    position: absolute;
+    left: 50px;
+    top: 35px;
+}
