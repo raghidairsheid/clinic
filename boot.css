@@ -1,36 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Fleur+De+Leah&family=Hanuman:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Fleur+De+Leah&family=Hanuman:wght@300;400&display=swap");
 
-
-
-*{
-    font-family: 'Hanuman', serif;
+@media screen and (max-width: 100px) {
+  .left,
+  .main,
+  .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+* {
+  font-family: "Hanuman", serif;
 }
 
-#title{
-    color: #1e2a6e;
-    font-weight: bold;
+#title {
+  color: #1e2a6e;
+  font-weight: bold;
 }
-#sizeF{
-    font-size: 15px;
+#sizeF {
+  font-size: 15px;
 }
-header a:hover{ 
-    color: white;
-    display: block;
-    background-color: rgb(30, 42, 110);
-    border-radius: 10px;
-   
+header a:hover {
+  color: white;
+  display: block;
+  background-color: rgb(30, 42, 110);
+  border-radius: 10px;
 }
-#locButton{
-    color: white;
+#locButton {
+  color: white;
 }
-#locimg{
-    width: 45rem;
-    height: 25rem;
+#locimg {
+  max-width: 100%;
+  max-height: 25rem;
 }
-.card-img-top{
-    height: 30%;
+.card-img-top {
+  height: 30%;
 }
-#Services, #Our_Team {
-    background-color: #e9e5e5;
+#Services,
+#Our_Team {
+  background-color: #e9e5e5;
 }
