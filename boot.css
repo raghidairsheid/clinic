@@ -1,38 +1,34 @@
-#head1{
-    color: black;
-    font-weight: bold;
-    margin-left: 5px;
-    margin-right: 20px;
-    font-size: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Fleur+De+Leah&family=Hanuman:wght@300;400&display=swap');
+
+*{
+    font-family: 'Hanuman', serif;
 }
-#map-overlay {
-    /* height:400px; */
-    /* margin-top:-405px; */
-    /* margin-left: 80%; */
-    background-color: rgba(94, 91, 91, 0.81);
-    padding:10px;
-    color: rgb(243, 231, 231);
-} 
+
+#title{
+    color: #1e2a6e;
+    font-weight: bold;
+}
+#sizeF{
+    font-size: 15px;
+}
+header a:hover{ 
+    color: white;
+    display: block;
+    background-color: rgb(30, 42, 110);
+    border-radius: 10px;
+   
+}
+#locButton{
+    color: white;
+}
+#locimg{
+    width: 45rem;
+    height: 25rem;
+}
 .card-img-top{
     height: 30%;
 }
-#why{
-    background-color:rgb(204, 199, 199);
-}
-#head1{
-    font-family: "Sofia", sans-serif;
-    font-size: 20px;
-    left: 50px;
-    position: absolute;
-    top: 5px;
-    font-weight: bold;
-}
-#head2{
-    font-family: sans-serif;
-    font-size: 10px;
-    /* float: right;  */
-    text-transform: uppercase;
-    position: absolute;
-    left: 50px;
-    top: 35px;
+#Services, #Our_Team {
+    background-color: #e9e5e5;
 }
