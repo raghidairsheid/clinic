@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Fleur+De+Leah&family=Hanuman:wght@300;400&display=swap');
 
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
 *{
     font-family: 'Hanuman', serif;
 }
